@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.idea
+
