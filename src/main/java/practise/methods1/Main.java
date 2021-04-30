@@ -1,6 +1,6 @@
-package practise;
+package practise.methods1;
 
-public class Methods1 {
+public class Main {
     public static void main(String[] args) {
         String fullName = getFullName("John","Test");
         System.out.println(fullName);
