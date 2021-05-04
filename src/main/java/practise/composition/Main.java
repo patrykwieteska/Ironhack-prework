@@ -15,7 +15,4 @@ public class Main {
                 ")\nMonitor "+desktop1.getMonitor().getPrice() + " USD (Monitor size: " + desktop1.getMonitor().getMonitorSize() + " inches, Max resolution: " + desktop1.getMonitor().getMaxResolution() +
                 ")\nKeyboard "+desktop1.getKeyboard().getPrice() + " USD (Keyboard layout: " + desktop1.getKeyboard().getKeyboardLayout()+")");
     }
-
-
-
 }
