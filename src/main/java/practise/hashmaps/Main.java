@@ -23,5 +23,15 @@ public class Main {
         for (Map.Entry<String, Pet> entry: ownersPets.entrySet()) {
             System.out.println(String.format("User %s is owner of pet called %s",entry.getKey(),entry.getValue().getName()));
         }
+
+        System.out.println(ownersPets);
+
+        ownersPets.remove("firstOwner@gmail.com", new Pet("Andrzej",12)); // no deletion
+
+        System.out.println(ownersPets);
+
+        ownersPets.remove("firstOwner@gmail.com");
+
+        System.out.println(ownersPets);
     }
 }
